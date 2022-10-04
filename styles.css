@@ -1,0 +1,251 @@
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Header Section */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 90px;
+    color: white;
+    background-color: black;
+}
+
+.nav-list {
+    list-style: none;
+    text-decoration: underline;
+    display: flex;
+}
+
+.title-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 6%;
+    height: 6%;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 20px;
+}
+
+.company-name {
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+li {
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+a.nav-link:link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: rgb(180,180,180);
+}
+
+a.nav-link:visited {
+    color: white;
+}
+
+/* Main Section */
+
+.main-section {
+    background-image: url(./resources/Background/glitter-nail-polish.avif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.mission-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    border-radius: 7px;
+}
+
+.mission {
+    margin: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+}
+
+.description {
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+span {
+    margin: 7px;
+}
+
+.view-gallery {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+a.view-gallery:link {
+    color: white;
+}
+
+a.view-gallery:hover {
+    color: rgb(200,200,200);
+    background-color: rgb(0,0,0,0.7);
+    border-color: black;
+}
+
+a.view-gallery:visited {
+    color: white;
+}
+
+/* Gallery Section */
+
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.gallery-container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img {
+    width: 43%;
+    height: 40%;
+    margin: 20px;
+}
+
+.view-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.arrow {
+    width: 8%;
+}
+
+.view-more {
+    font-size: 1.2rem;
+    margin: 10px
+}
+
+a.view-more:link {
+    color: black;
+}
+
+a.view-more:hover {
+    color: gray;
+}
+
+a.view-more:visited {
+    color: black;
+}
+
+/*Team Section*/
+.team-section {
+    background-color: black;
+    height: 60%;
+}
+
+.our-team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.team {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.team-members {
+    display: flex;
+}
+
+.member-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-img {
+    width: 80%;
+    height: 70%;
+}
+
+.member, .role {
+    margin: 10px;
+}
+
+.role {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+/* Footer Section */
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-company-name {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact, .phone, .email {
+    margin-left: 5px;
+}
